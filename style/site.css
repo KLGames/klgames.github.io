@@ -223,6 +223,24 @@ p {
 	background-size: cover;
 }
 
+.ref8 {
+	width:800px;
+	height: 350px;
+	margin: auto;
+	margin-top: 2px;
+	background: white url('../images/prm9.png') center;
+	background-size: cover;
+}
+
+.ref9 {
+	width:800px;
+	height: 350px;
+	margin: auto;
+	margin-top: 2px;
+	background: white url('../images/prm10.png') center;
+	background-size: cover;
+}
+
 .ref3 {
 	width:800px;
 	height: 350px;
@@ -267,6 +285,7 @@ p {
 	background: white url('../images/prm8_cleancode.png') center;
 	background-size: cover;
 }
+
 
 .contact {
 	height: 140px;
