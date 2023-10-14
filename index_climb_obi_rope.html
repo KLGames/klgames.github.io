@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name = "title" content="KL GAMES , climbing on obi rope in unity">
+    <meta name = "description" content="KL GAMES , climbing on obi rope in unity">
+    <meta name = "keywords" content="KL GAMES , climbing on obi rope in unity">
+    <meta name = "copyright" content="Copyright (C) 2023 09 29 by Laca">
+    <meta name = "ROBOTS" content="INDEX, all">
+    <meta name = "distribution" content="Global">
+    <meta name = "rating" content="general">
+    <meta name = "doc-type" content="web page">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv = "Content-Language" content="hu">
+    <meta http-equiv = "Expires" content="Mon, 03 Dec 1990 23:00:00 GMT">
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate">
+    <meta http-equiv="Cache-control" content="max-age=1209600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000" />
+
+    <title>KLGAMES, climbing on obi rope in unity</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="style/site.css" rel="stylesheet" type="text/css" >
+    <link href="style/hamburgers.css" rel="stylesheet">
+    <link href="style/favicon.ico" rel="shortcut icon">
+    <link rel="icon" type="image/png" href="style/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="style/favicon-16x16.png" sizes="16x16" />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4'></script>
+
+</head>
+
+<!-- KLGames -->
+<body id="the_body">
+
+    <div class="main">
+
+     <div class="head">
+        <div class="row">
+          <div id="head_logo">
+            <br/>
+            <a href="https://klgames.github.io/" style="background: none"><img id="kl_games_logo" src="images/kl_games_cut.png" style="filter: invert(100%); -webkit-filter: invert(100%);" /></a>
+          </div>
+          <div id="head_menu">
+            <a href="#" id="goto_about">ABOUT</a>
+            <a href="#" id="goto_pictures">PICTURES</a>
+            <a href="#" class="goto_contact">CONTACT US</a>
+         </div>
+        </div>
+     </div>  
+
+     <div class="full about">
+      <div class="row">
+
+          <h3>ABOUT</h3>
+
+          <span>
+            <br/>
+            ----------------------------------------<br/>
+            Climb on obi rope by KLGames<br/>
+            ----------------------------------------<br/><br/>
+            
+            1. Introduction<br/>
+            2. RopesManager<br/>
+            3. CONTROLS<br/>
+            4. HDRP materials Upgrade<br/>
+            5. Contact<br/><br/>
+            
+            ----------------------------------------<br/>
+            1. INTRODUCTION<br/>
+            ----------------------------------------<br/><br/>
+            
+            This is a climbing on obi rope system, where with your humanoid character, you can climb the obi rope in 2D/2.5D OR 3D.
+            Look at the Demo scene under the folder KLGames/ClimbObiRope.
+            YOU HAVE TO INSTALL FIRST THE OBI ROPE PACKAGE FROM THE ASSSET-STORE! THIS IS ONLY AN EXTENSION!<br/><br/>
+            The demo not contains any sound files!
+            <br/><br/>
+
+            OBI ROPE CLIMBING SYSTEM FEATURES<br/><br/>
+
+            -2.5D/3D dimensions<br/>
+            -change rope/chain max velocity<br/>
+            -rope and chain<br/>
+            -climb up/down<br/>
+            -turn around on rope<br/>
+            -rope/chain sounds on move<br/>
+            -wall handle in front of player<br/>
+            -IK handling (arms, legs, head, body)<br/>
+            -swinging on rope front/back/left/right<br/>
+            -auto fall down from rope after X seconds (player tired)<br/><br/>
+
+
+            ----------------------------------------<br/>
+            2. RopesManager<br/>
+            ----------------------------------------<br/><br/>
+            
+            In the demo scene I wrote fast a little character controller script, but if you have an other character controller, you can just 
+            quickly see the script and you can update the codebase. The codebase is structured and written in Rider.  <br/>
+            RopesManager2D/3D supports IK handling (swinging on rope) on your character, or if you want just turn it off. <br/>
+            The RopesManager supports chains and ropes.<br/><br/><br/>
+            
+            PlayerAndObiRopeCollision2D/3D is a class where the contact between the player and the rope will be.   <br/>
+            CreateClimbableObiRope2D/3D is the main mechanic, where the rope generated and the climbing behaviours.<br/>
+            CreateNotClimbableObiRope3D is an obi rope/chain generator with gizmos, but it is not climbable. <br/><br/>
+            
+            ----------------------------------------<br/>
+            3. CONTROLS<br/>
+            ----------------------------------------<br/><br/>
+            
+            You can control the character with left/right and space. Space for jumping on the ground, or jumping down from the rope. 
+            Fast double left or right key just changes the character facing on the rope. The character jump down when tired or reach the bottom.   
+            <br/><br/>
+            ----------------------------------------<br/>
+            4. HDRP/ETC Upgrade<br/>
+            ----------------------------------------<br/><br/>
+            
+            This is an URP project, but the material can simple upgrade by yourself. 
+            There are only 5 material on the scene.<br/><br/>
+            
+            ----------------------------------------<br/>
+            5. CONTACT<br/>
+            ----------------------------------------<br/><br/>
+            
+            See my support page here: http://klgames.github.io<br/><br/>
+            Ratings & reviews are much appreciated!
+
+          </span>
+          <br/><br/><br/>
+          
+        </div>
+    </div>
+
+    <div id="arrow_center_up_middle"><i class="fa fa-angle-up arrow" id="goto_up"></i></div>
+
+    <a name="section_pictures" style="visibility: hidden"></a>
+    <div class="full pictures">
+      <div class="row">
+          <h3>PICTURES</h3><br/>
+
+          <div class="ref0"></div>   
+          <div class="ref1"></div>
+          <div class="ref2"></div>
+          <div class="ref8"></div>
+          <div class="ref9"></div>
+          <div class="ref3"></div>
+          <div class="ref4"></div>
+          <div class="ref5"></div>
+          <div class="ref6"></div>
+          <div class="ref7"></div>
+
+        <div style="clear: both"></div>
+      </div>
+    </div>
+
+    <div id="arrow_center_up_middle"><i class="fa fa-angle-up arrow" id="goto_up"></i></div>
+
+    <a name="section_videos" style="visibility: hidden"></a>
+    <div class="full videos">
+      <div class="row">
+          <h3>VIDEOS</h3>
+
+          <div id="yttrailer_out">
+            <iframe id="yttrailer" src="https://www.youtube.com/embed/lEUmVG3T5pA?controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe id="yttrailer" src="https://www.youtube.com/embed/axMGkOv9RaI?controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br/><br/>
+          </div>
+
+          <div style="clear: both"></div>
+      </div>
+    </div>
+
+    <a name="section_contact" style="visibility: hidden"></a>
+    <div class="full contact">
+      <div class="row">
+          <h3>CONTACT US</h3>
+
+          <div>
+
+            <br/>
+            <div class="info">klunitystore [AT] gmail.com</div>
+            <div class="info">KLGames</div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="kllogo">
+      <div style="text-align: center; width: 100%; height: 100px;">
+        <a href="https://klgames.github.io/" style="background: none"><img id="kl_games_logo" src="images/kl_games_cut.png" 
+          style="filter: invert(100%); -webkit-filter: invert(100%);" /></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="hamburgermenu">
+    <div class="hamburger hamburger--spin">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="navmenu">
+      <a href="#" id="navmenu_goto_about">ABOUT</a>
+      <a href="#" id="navmenu_goto_pictures">PICTURES</a>
+      <a href="#" class="goto_contact">CONTACT US</a>
+  </div>   
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/hamburger.js"></script>
+
+</body>
+</html>
