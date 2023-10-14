@@ -65,6 +65,16 @@ a:hover {
 	opacity: 1;
 }
 
+#kl_games_logo_up {
+	height: 30px;
+	opacity: 1;
+}
+
+#kl_games_logo_up:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
+
 .wishlist {
 	width: 160px; 
 }
