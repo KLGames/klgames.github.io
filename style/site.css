@@ -218,94 +218,6 @@ p {
 	width: 1200px;
 }
 
-.ref0 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	background: white url('../images/prm5.png') center;
-	background-size: cover;
-}
-
-.ref1 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	background: white url('../images/prm6.png') center;
-	background-size: cover;
-}
-
-.ref2 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm7.png') center;
-	background-size: cover;
-}
-
-.ref8 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm9.png') center;
-	background-size: cover;
-}
-
-.ref9 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm10.png') center;
-	background-size: cover;
-}
-
-.ref3 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm4.png') center;
-	background-size: cover;
-}
-
-.ref4 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm_1.png') center;
-	background-size: cover;
-}
-
-.ref5 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm_2.png') center;
-	background-size: cover;
-}
-
-.ref6 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm3.png') center;
-	background-size: cover;
-}
-
-.ref7 {
-	width:800px;
-	height: 350px;
-	margin: auto;
-	margin-top: 2px;
-	background: white url('../images/prm8_cleancode.png') center;
-	background-size: cover;
-}
-
 
 .contact {
 	height: 140px;
@@ -479,12 +391,6 @@ p {
 		width:900px;
 	}
 	
-	.ref0, .ref1, .ref2, .ref3, .ref4, .ref5, .ref6, .ref7 {
-		width:800px;
-		height: 300px;
-		margin: auto;
-	}
-	
 	.logo_imgs {
 		padding-top: 30px;
 	}
@@ -576,13 +482,6 @@ p {
 		width:700px;
 	}
 
-	.ref0, .ref1, .ref2, .ref3, .ref4, .ref5, .ref6, .ref7 {
-		width: 400px;
-		margin: auto;
-		height: 200px;
-		margin-top: 2px;
-	}
-		
 	.row {
 		width: 90%;
 		padding-left: 5%;
@@ -628,13 +527,6 @@ p {
 		width: 350px;
 	}
 	
-	.ref0, .ref1, .ref2, .ref3, .ref4, .ref5, .ref6, .ref7 {
-		width: 300px;
-		margin: auto;
-		height: 200px;
-		margin-top: 2px;
-	}
-
 	.wishlist {
 		width: 110px; 
 	}
