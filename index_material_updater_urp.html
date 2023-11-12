@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name = "title" content="KL GAMES , climbing on obi rope in unity">
+    <meta name = "description" content="KL GAMES , climbing on obi rope in unity">
+    <meta name = "keywords" content="KL GAMES , climbing on obi rope in unity">
+    <meta name = "copyright" content="Copyright (C) 2023 09 29 by Laca">
+    <meta name = "ROBOTS" content="INDEX, all">
+    <meta name = "distribution" content="Global">
+    <meta name = "rating" content="general">
+    <meta name = "doc-type" content="web page">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv = "Content-Language" content="hu">
+    <meta http-equiv = "Expires" content="Mon, 03 Dec 1990 23:00:00 GMT">
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate">
+    <meta http-equiv="Cache-control" content="max-age=1209600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000" />
+
+    <title>KLGAMES, zipline in unity</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="style/site.css" rel="stylesheet" type="text/css" >
+    <link href="style/hamburgers.css" rel="stylesheet">
+    <link href="style/favicon.ico" rel="shortcut icon">
+    <link rel="icon" type="image/png" href="style/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="style/favicon-16x16.png" sizes="16x16" />
+    <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js?ver=2.2.4'></script>
+
+</head>
+
+<!-- KLGames -->
+<body id="the_body">
+
+    <div class="main">
+
+     <div class="head">
+        <div class="row">
+          <div id="head_logo">
+            <br/>
+            <a href="https://klgames.github.io/"><img id="kl_games_logo_up" src="images/kl_games_cut2.png" /></a>
+          </div>
+          <div id="head_menu">
+            <a href="#" id="goto_about">ABOUT</a>
+            <a href="#" id="goto_pictures">PICTURES</a>
+            <a href="#" class="goto_contact">CONTACT US</a>
+         </div>
+        </div>
+     </div>  
+
+     <div class="full about">
+      <div class="row">
+
+          <h3>ABOUT</h3>
+
+          <span>
+            <br/>
+           ******************************************************************<br/>
+            MaterialUpdater - Unity URP to HDRP README<br/>
+           ******************************************************************<br/><br/>
+           
+           Created by Kozári László in 2023.11.12 at KLGAMES<br/>
+           <b>Tested in Unity 2022.3.0 on a 150 GB project, on over 7000+ materials</b><br/><br/>
+           
+           *********************************<br/>
+           <b>HOW THIS WORK?</b><br/>
+           *********************************<br/><br/>
+           
+           0, First step is to make a backup of your URP project!<br/><br/>
+           
+           1, The next step is to copy your URP project to a new folder, lets say this name will be <br/><br/>
+           <b>YOUR_PROJECT_URP</b> (this stay the urp project)<br/>
+           and you create a HDRP too:<br/>
+           <b>YOUR_PROJECT_HDRP</b> (this will be the HDRP project)<br/><br/>
+           
+           2, Open the HDRP project.<br/><br/>
+           
+           3, Install the High definition render pipeline from package manager, and fixes everything with the HDRP Wizard until everything will be GREEN.
+           Maybe the wizard trying to update all your materials here, but you get every material as pink in the end. <br/><br/>
+           
+           4, Remove the URP renderers from your HDRP folder.<br/><br/>
+           
+           5, Copy the MaterialUpdater script to your assets folder (both in URP and HDRP folder in your project)<br/><br/>
+           
+           6, Open your URP project and run the first script in the menu: "*KLGAMES/MATERIALUPDATER/-> IN URP PROJECT: SAVE MATERIAL INFO!"<br/><br/>
+           This will create a json file from your material properties in the assets folder. "MaterialInfoUrp.txt"
+           
+           7, After this completes, copy this file to your HDRP Asset folder ("MaterialInfoUrp.txt") //press CTRL + R for manual refresh<br/><br/>
+           
+           8, In your HDRP project click on the menu: "*KLGAMES/MATERIALUPDATER/-> IN HDRP PROJECT: UPDATE MATERIALS!"<br/><br/>
+           
+           9, After all, all your materials will be usable again!<br/><br/>
+           
+           *********************************<br/>
+            SUPPORTED MATERIALS<br/>
+           *********************************<br/><br/>
+           
+               Universal Render Pipeline/Lit - HDRP/Lit<br/>
+               Universal Render Pipeline/Unlit - HDRP/UnLit<br/>
+               Universal Render Pipeline/Simple Lit - HDRP/Lit<br/>
+               Universal Render Pipeline/Particles/Lit - Legacy Shaders/Particles/Additive<br/>
+               Universal Render Pipeline/Particles/Unlit - Legacy Shaders/Particles/Additive<br/>
+               Legacy Shaders/Particles/ - Legacy Shaders/Particles/Additive<br/><br/>
+           
+           *********************************<br/>
+            CONVERTED PROPERTIES<br/>
+           *********************************<br/><br/>
+               to HDRP - from URP<br/>
+               "_BaseColorMap", "_BaseMap"<br/>
+               "_NormalMap", "_BumpMap"<br/>
+               "_MaskMap", "_MetallicGlossMap"<br/>
+               "_NormalScale", "_BumpScale"<br/>
+               "_EmissiveColorMap", "_EmissionMap"<br/>
+               "_EmissiveColor", "_EmissionColor"<br/>
+               "_AlphaCutoff", "_Cutoff"<br/><br/>
+            
+            See my support page here: http://klgames.github.io<br/><br/>
+            Ratings & reviews are much appreciated!
+
+          </span>
+          <br/><br/><br/>
+          
+        </div>
+    </div>
+
+    <div id="arrow_center_up_middle"><i class="fa fa-angle-up arrow" id="goto_up"></i></div>
+
+    <a name="section_pictures" style="visibility: hidden"></a>
+    <div class="full pictures">
+      <div class="row">
+          <h3>PICTURES</h3><br/>
+
+          <img src="images/mu1.png" style="width: 99%" />
+          <img src="images/mu2.png" style="width: 99%" />
+
+        <div style="clear: both"></div>
+      </div>
+    </div>
+
+    <div id="arrow_center_up_middle"><i class="fa fa-angle-up arrow" id="goto_up"></i></div>
+
+    <!--
+    <a name="section_videos" style="visibility: hidden"></a>
+    <div class="full videos">
+      <div class="row">
+          <h3>VIDEOS</h3>
+
+          <div id="yttrailer_out">
+            <iframe id="yttrailer" src="https://www.youtube.com/embed/3GymPNnKUdQ?controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe id="yttrailer" src="https://www.youtube.com/embed/Kpel1_HmEes?controls=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+           
+            <br/><br/>
+          </div>
+
+          <div style="clear: both"></div>
+      </div>
+    </div>-->
+
+    <a name="section_contact" style="visibility: hidden"></a>
+    <div class="full contact">
+      <div class="row">
+          <h3>CONTACT US</h3>
+
+          <div>
+
+            <br/>
+            <div class="info">klunitystore [AT] gmail.com</div>
+            <div class="info">KLGames</div>
+
+          </div>
+      </div>
+    </div>
+
+    <div class="kllogo">
+      <div style="text-align: center; width: 100%; height: 100px;">
+        <a href="https://klgames.github.io/" style="background: none"><img id="kl_games_logo" src="images/kl_games_cut.png" 
+          style="filter: invert(100%); -webkit-filter: invert(100%);" /></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="hamburgermenu">
+    <div class="hamburger hamburger--spin">
+      <div class="hamburger-box">
+        <div class="hamburger-inner"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="navmenu">
+      <a href="#" id="navmenu_goto_about">ABOUT</a>
+      <a href="#" id="navmenu_goto_pictures">PICTURES</a>
+      <a href="#" class="goto_contact">CONTACT US</a>
+  </div>   
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/hamburger.js"></script>
+
+</body>
+</html>
